@@ -21,6 +21,7 @@ import {
   Sloom,
   CompileVortex,
   fourNK,
+  logotiss,
 } from "../assets";
 
 export const navLinks = [
@@ -31,6 +32,10 @@ export const navLinks = [
   {
     id: "work",
     title: "Expériences",
+  },
+  {
+    id: "veille",
+    title: "Veille ",
   },
   {
     id: "contact",
@@ -80,7 +85,90 @@ export const experiences = [
     ],
   },
 ];
-
+export const veilles = [
+  {
+    title: "Will Low Code Solve Developer Shortages?",
+    company_name: "App developper magasin",
+    icon: logotiss,
+    iconBg: "#161329",
+    points: [
+      "L’article explore comment les plateformes low-code répondent à la pénurie mondiale de développeurs. Il met en lumière leur capacité à accélérer le développement d’applications d’entreprise tout en démocratisant l’accès aux outils de création logicielle pour les employés non techniques.",
+    ],
+  },
+  {
+    title: "Low-Code Development: Revolutionizing Enterprise Software",
+    company_name: "Techtarget",
+    icon: logotiss,
+    iconBg: "#161329",
+    points: [
+      "Présentation des plateformes comme OutSystems et Mendix, qui permettent aux entreprises de réduire considérablement les délais de mise sur le marché des applications critiques, tout en favorisant l’innovation interne.",
+    ],
+  },{
+    title: "Low-Code/No-Code Adoption Trends in Enterprises",
+    company_name: "Zdnet",
+    icon: logotiss,
+    iconBg: "#161329",
+    points: [
+      "L’article détaille comment les grandes entreprises utilisent des plateformes comme Microsoft Power Apps et Appian pour automatiser leurs processus internes et réduire les coûts associés au développement traditionnel.",
+    ],
+  },{
+    title: "Low-Code Platforms Driving Digital Transformation in 2023",
+    company_name: "Forbes",
+    icon: logotiss,
+    iconBg: "#161329",
+    points: [
+      "Exploration des perspectives de croissance pour 2023, avec un accent sur les intégrations IA et automatisations de processus métier grâce à des plateformes comme Salesforce et ServiceNow.",
+    ],
+  },{
+    title: "The Rise of Citizen Developers",
+    company_name: "Techcrunch",
+    icon: logotiss,
+    iconBg: "#161329",
+    points: [
+      "Cet article montre comment les outils low-code/no-code favorisent l’émergence des « citizen developers », des employés non techniques qui développent des applications métier, réduisant ainsi la pression sur les équipes IT.",
+    ],
+  },{
+    title: "Low-Code Development in Action: Real-World Use Cases",
+    company_name: "Gartner",
+    icon: logotiss,
+    iconBg: "#161329",
+    points: [
+      "Étude de cas d’entreprises ayant utilisé des plateformes low-code pour moderniser des applications héritées et développer des outils personnalisés pour leurs équipes.",
+    ],
+  },{
+    title: "Low-Code in 2023: AI-Powered Automation Takes Over",
+    company_name: "Opensourceforu",
+    icon: logotiss,
+    iconBg: "#161329",
+    points: [
+      "Focus sur les nouvelles fonctionnalités intégrées aux plateformes LCNC, comme l’automatisation basée sur l’IA et la gestion avancée des données en temps réel.",
+    ],
+  },{
+    title: "Building Enterprise-Grade Applications with No-Code",
+    company_name: "Bubble",
+    icon: logotiss,
+    iconBg: "#161329",
+    points: [
+      "L’article analyse les limites des plateformes no-code lorsqu’il s’agit de développer des applications complexes, tout en soulignant leur efficacité pour des solutions d’entreprise rapides.",
+    ],
+  },{
+    title: "10 Key Low-Code Platforms to Watch in 2023",
+    company_name: "Appdevelopermagazine",
+    icon: logotiss,
+    iconBg: "#161329",
+    points: [
+      "Comparaison détaillée de 10 plateformes majeures, comme OutSystems, Mendix, et Microsoft Power Apps, en mettant l’accent sur leurs avantages respectifs pour les entreprises.",
+    ],
+  },{
+    title: "Securing Low-Code/No-Code Platforms in Enterprises",
+    company_name: "Zdnet",
+    icon: logotiss,
+    iconBg: "#161329",
+    points: [
+      "Discussion des enjeux de sécurité dans l’adoption des plateformes LCNC, notamment la protection des données sensibles et les risques liés au « shadow IT ».",
+    ],
+  },
+];
 export const projects = [
   {
     name: "TD Cobian",

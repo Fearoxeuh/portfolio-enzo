@@ -21,12 +21,13 @@ const Hero = () => {
             Je fais 
             <Typewriter
               options={{
-                strings: ["de la CyberSecurité", "du graphique/design", "du Java", "des sites web"],
+                strings: ["de la CyberSecurité", "du graphisme/design", "du Java", "des sites web"],
                 autoStart: true,
                 loop: true,
+                delay: 50,
                 loopCount: Infinity,
                 deleteSpeed: "natural",
-                pauseFor: 1000,
+                pauseFor: 1500,
               }}
             />
           </p>

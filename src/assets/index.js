@@ -1,5 +1,6 @@
 // Import company logos
 import fourNK from "./company/4nk.png";
+import logotiss from "./company/logotissy.png"
 
 // Import tech stack images
 import python from "./tech-stack/python.png";
@@ -59,4 +60,5 @@ export {
   menu,
   close,
   fourNK,
+  logotiss,
 };
