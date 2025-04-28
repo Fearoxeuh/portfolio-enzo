@@ -121,7 +121,7 @@ export const projects = [
   {
     name: "Portfolio",
     description:
-      "Le site sur le quel vous vous trouvez actuellement",
+      "Le site sur lequel vous vous trouvez actuellement",
     tags: [
       { name: "Portfolio", color: "blue-text-gradient" },
       { name: "Identité", color: "green-text-gradient" },
