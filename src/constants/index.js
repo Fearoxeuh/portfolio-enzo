@@ -152,7 +152,7 @@ export const projects = [
       { name: "JSON", color: "green-text-gradient" },
     ],
     image: fourNK,
-    source_code_link: "https://github.com/Fearoxeuh/Gen-IA",
+    source_code_link: "https://drive.google.com/file/d/1eqwlX72TSukRmxMVZ0FisRC0cDkaMMUg/view?usp=sharing",
   },
   {
     name: "Retranscription IA",
@@ -163,7 +163,7 @@ export const projects = [
       { name: "JSON", color: "green-text-gradient" },
     ],
     image: fourNK,
-    source_code_link: "https://github.com/Fearoxeuh/Reprise-existant",
+    source_code_link: "https://drive.google.com/file/d/1_XR8CquUDOTmhp--6akn_9GRMH9WwuTI/view?usp=sharing",
   },
   {
     name: "Site Vitrine Sloom",
