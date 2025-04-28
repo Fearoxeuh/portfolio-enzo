@@ -9,7 +9,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   const toggleResume = () => {
-    const resumeUrl = 'portfolio-enzo/Resume.pdf';
+    const resumeUrl = 'https://drive.google.com/file/d/1CBWFNh7gyOjXJxx5gb-mGJ0m7xSYqhWl/view';
     window.open(resumeUrl);
   };
 
